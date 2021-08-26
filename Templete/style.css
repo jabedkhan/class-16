@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Difolt CSS */
+
+
+/* CSS Start */
+
+/* Header Saction */
+
+.header-section{
+    background-color: #101446;
+}.header-section img{
+    width: 100px;
+    padding: 10px 0;
+}
+.menu{
+    margin-bottom: -15px;
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 83px;
+    color: #fff;
+}
+
+/* Banner Saction */
+
+.banner-saction{
+    background-image: url(./image/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 250px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner-saction p{
+    width: 700px;
+    margin: 50px auto;
+}
+.bt button{
+    display: inline-block;
+    background-color: #337ab7;
+    border-radius: 5px;
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+}
+.banner-saction::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Our Teem Section */
+
+.our-team{
+    background-color: #bac1f3;
+}
+.our-team h1{
+    margin: 50px 0;
+    font: 40px;
+}
+.our-team h4{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.our-team p{
+    width: 200px;
+    margin: auto;
+}
+.our-team a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+/* About Section */
+
+.about-section{
+    padding: 150px 0;
+    background-color: #c2d4ea;
+}
+.about-left img{
+    width: 200px;
+}
+
+/* Contact Section */
+
+.contact-section{
+    padding: 50px 0;
+}
